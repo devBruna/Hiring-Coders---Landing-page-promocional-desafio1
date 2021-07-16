@@ -1,0 +1,68 @@
+:root{
+    --laranja:#f5980d;
+    --azul:#2060eb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--azul);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*alinha os conteudos*/
+    justify-content: space-between; /*espaco entre os elementos alinhados - horizontal*/
+   
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--laranja);
+    margin-right: 15px;
+    font-family: 'Arial Black', Times;
+}
+
+header nav a:hover{
+    color: rgb(236, 37, 37);
+}
+
+.propaganda{
+    font-size:16px;
+    height: 350px;
+    
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.05)50%), url(img/principal.png);
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.owl-nav{
+    color: var(--azul);
+}
+
+.box-livro{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
